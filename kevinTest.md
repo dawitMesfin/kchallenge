@@ -184,7 +184,7 @@ No pitfalls.
  Second render parent component using react testing library's render
  Third check if the mocked child has been called with the right props using jest's toHaveBeenCalledWith assertion
 
--                       REACT TEST
+# REACT TEST
 
 The folloing code comporises all the react test steps
 
