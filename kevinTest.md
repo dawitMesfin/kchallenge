@@ -112,7 +112,7 @@ const arrowFunction = (a,b) => {
 arrowFunction(1,2) // arguments is not defined
 ```
 Forth difference is in regular function, we have to use ```return``` keyword to return any value. If we don’t return anything then the function will return undefined.
-```
+```javascript
 function regularFunc() {
   return "my name"
 }
@@ -144,7 +144,7 @@ The ```!important``` is a rule that overrides all previous styling rules for a s
 
 Yes there are some occasions that we do not get the expected output from ```!important```.
 Example consider the following scenario.
-```
+```javascript
 #AppId {
  background-color: yellow !important;
 }
